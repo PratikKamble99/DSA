@@ -12,7 +12,7 @@
             Out of all possible unique triplets possible, [-1,-1,2] and [-1,0,1] satisfy the condition of 
             summing up to zero with i!=j!=k
 
-        NOTE: element in one triplet must not used in another triplet.
+        NOTE: Same indexes element in one triplet must not in another triplet which form by same indexes elements.
 */
 
 var threeSumBrute = function (nums) {
