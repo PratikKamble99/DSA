@@ -22,10 +22,12 @@ function convertArrayToLinkedList(arr) {
 // traverse in linked list
 function traverse(head) {
     let current = head;
+    let str = "";
     while (current) {
-        console.log(current.data);
+        str += current.data += " ";
         current = current.next;
     }
+    console.log(str);
 }
 
 function lengthOfLL(head) {
@@ -98,16 +100,16 @@ function deleteAtKPos(head, k) {
     return JSON.stringify(head);
 }
 
-function deleteByValue(head, value) {
-    if (!checkIfPresent(head, value)) return head;
+function deleteByValue(head, data) {
+    if (!checkIfPresent(head, data)) return head;
     if (head == null) return null;
-    if (head.data == value) return deleteHead(head); // Check if value is at Head
+    if (head.data == data) return deleteHead(head); // Check if data is at Head
 
     let current = head;
     let prev;
 
     while (current) {
-        if (current.data == value) {
+        if (current.data == data) {
             prev.next = prev.next.next;
             break;
         }
@@ -117,9 +119,9 @@ function deleteByValue(head, value) {
     return JSON.stringify(head);
 }
 
-function insertAtStart(head, value) {
+function insertAtStart(head, data) {
     let new_node = {
-        data: value,
+        data: data,
         next: head,
     };
 
@@ -127,14 +129,14 @@ function insertAtStart(head, value) {
     // return JSON.stringify(head);
     return JSON.stringify(new_node);
     // return {
-    //     data: value,
+    //     data: data,
     //     next: head,
     // };
 }
 
-function insertAtLast(head, value) {
+function insertAtLast(head, data) {
     let new_node = {
-        data: value,
+        data: data,
         next: null,
     };
 
@@ -148,11 +150,11 @@ function insertAtLast(head, value) {
     return JSON.stringify(head);
 }
 
-function insertAtPosK(head, value, k) {
+function insertAtPosK(head, data, k) {
     if (head == null) {
         if (k == 1) {
             return {
-                data: value,
+                data: data,
                 next: head,
             };
         } else return "No linked List Found";
@@ -160,13 +162,13 @@ function insertAtPosK(head, value, k) {
 
     if (k == 1) {
         return {
-            data: value,
+            data: data,
             next: head,
         };
     }
 
     let new_node = {
-        data: value,
+        data: data,
         next: null,
     };
 
@@ -192,13 +194,13 @@ function insertAtPosK(head, value, k) {
     return JSON.stringify(head);
 }
 
-function insertBeforeEle(head, value, ele) {
+function insertBeforeEle(head, data, ele) {
     if (head == null) {
         return "No linked List Found";
     }
 
     let new_node = {
-        data: value,
+        data: data,
         next: null,
     };
 
@@ -224,7 +226,7 @@ function insertBeforeEle(head, value, ele) {
 }
 
 const startOfLL = convertArrayToLinkedList([12, 3, 4, 6, 8]);
-console.log(JSON.stringify(startOfLL));
+// console.log(JSON.stringify(startOfLL));
 // traverse(startOfLL);
 // lengthOfLL(startOfLL);
 // console.log(checkIfPresent(startOfLL, 16));
@@ -234,4 +236,9 @@ console.log(JSON.stringify(startOfLL));
 // console.log(deleteByValue(startOfLL, 3));
 // console.log(insertAtStart(startOfLL, 1010));
 // console.log(insertAtPosK(startOfLL, 90, 2));
-console.log(insertBeforeEle(startOfLL, 90, 4));
+// console.log(insertBeforeEle(startOfLL, 90, 4));
+
+module.exports = {
+    convertArrayToLinkedList,
+    traverse,
+};
