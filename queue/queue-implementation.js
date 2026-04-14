@@ -59,9 +59,10 @@ class Queue {
 // console.log(myQueue.printQueue());
 
 // Implement Queue using Array
-class Queue2 {
+export class Queue2 {
     start = -1;
     end = -1;
+    size = 0;
 
     constructor() {
         this.queue = [];
@@ -69,6 +70,7 @@ class Queue2 {
 
     push(val) {
         this.end++;
+        this.size += 1;
         if (this.start == -1) {
             this.start++;
             this.queue[this.end] = val;
@@ -79,6 +81,7 @@ class Queue2 {
     }
 
     pop() {
+        this.size--;
         return this.queue[this.start++];
     }
 
@@ -87,11 +90,11 @@ class Queue2 {
     }
 }
 
-const queue1 = new Queue2();
-queue1.push(20);
-queue1.push(30);
-queue1.push(40);
-console.log(queue1.top(), "TOP");
-console.log(queue1.pop(), "POP");
-console.log(queue1.pop(), "POP");
-console.log(queue1.top(), "TOP");
+// const queue1 = new Queue2();
+// queue1.push(20);
+// queue1.push(30);
+// queue1.push(40);
+// console.log(queue1.top(), "TOP");
+// console.log(queue1.pop(), "POP");
+// console.log(queue1.pop(), "POP");
+// console.log(queue1.top(), "TOP");
