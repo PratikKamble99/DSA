@@ -9,51 +9,89 @@
 // IMPLEMENTATION
 
 class Queue {
-  constructor() {
-    this.queue = [];
-  }
+    constructor() {
+        this.queue = [];
+    }
 
-  enqueue(ele) {
-    this.queue.push(ele)
-  }
+    enqueue(ele) {
+        this.queue.push(ele);
+    }
 
-  dequeue() {
-    if (this.isEmpty()) return 'Empty queue'
-    return this.queue.shift()
-  };
+    dequeue() {
+        if (this.isEmpty()) return "Empty queue";
+        return this.queue.shift();
+    }
 
-  front() {
-    if (this.isEmpty()) return 'Empty queue'
-    return this.queue[0]
-  }
+    front() {
+        if (this.isEmpty()) return "Empty queue";
+        return this.queue[0];
+    }
 
-  rear() {
-    if (this.isEmpty()) return 'Empty queue'
-    return this.queue[this.size()-1]
-  }
+    rear() {
+        if (this.isEmpty()) return "Empty queue";
+        return this.queue[this.size() - 1];
+    }
 
-  isEmpty() {
-    return this.size() == 0
-  }
+    isEmpty() {
+        return this.size() == 0;
+    }
 
-  size() {
-    return this.queue.length
-  }
+    size() {
+        return this.queue.length;
+    }
 
-  printQueue(){
-    return this.queue
-  }
+    printQueue() {
+        return this.queue;
+    }
 }
 
-const myQueue = new Queue();
+// const myQueue = new Queue();
 
-myQueue.enqueue(12);
-myQueue.enqueue(32);
-myQueue.enqueue(99);
+// myQueue.enqueue(12);
+// myQueue.enqueue(32);
+// myQueue.enqueue(99);
 
-myQueue.dequeue();
+// myQueue.dequeue();
 
-console.log(myQueue.front())
-console.log(myQueue.rear())
+// console.log(myQueue.front());
+// console.log(myQueue.rear());
 
-console.log(myQueue.printQueue())
+// console.log(myQueue.printQueue());
+
+// Implement Queue using Array
+class Queue2 {
+    start = -1;
+    end = -1;
+
+    constructor() {
+        this.queue = [];
+    }
+
+    push(val) {
+        this.end++;
+        if (this.start == -1) {
+            this.start++;
+            this.queue[this.end] = val;
+            return;
+        }
+
+        this.queue[this.end] = val;
+    }
+
+    pop() {
+        return this.queue[this.start++];
+    }
+
+    top() {
+        return this.queue[this.start] ?? -1;
+    }
+}
+
+const queue1 = new Queue2();
+queue1.push(20);
+queue1.push(30);
+queue1.push(40);
+console.log(queue1.top(), "TOP");
+console.log(queue1.pop(), "POP");
+console.log(queue1.pop(), "POP");
+console.log(queue1.top(), "TOP");

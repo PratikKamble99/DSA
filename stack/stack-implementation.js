@@ -8,41 +8,74 @@
 
 // IMPLEMENTATION
 class Stack {
-  constructor(){
-    this.stack = [];
-  }
+    constructor() {
+        this.stack = [];
+    }
 
-  push(element){
-    return this.stack.push(element)
-  }
-  
-  pop(){
-    if(this.isEmpty()) return "stack is empty"
-    return this.stack.pop()
-  }
+    push(element) {
+        return this.stack.push(element);
+    }
 
-  peek(){
-    if(this.isEmpty()) return "stack is empty"
-    return this.stack[this.size()-1]
-  }
+    pop() {
+        if (this.isEmpty()) return "stack is empty";
+        return this.stack.pop();
+    }
 
-  size(){
-    return this.stack.length
-  }
+    peek() {
+        if (this.isEmpty()) return "stack is empty";
+        return this.stack[this.size() - 1];
+    }
 
-  isEmpty(){
-    return this.size() == 0;
-  }
+    size() {
+        return this.stack.length;
+    }
 
-  printStack(){
-    return this.stack;
-  }
+    isEmpty() {
+        return this.size() == 0;
+    }
+
+    printStack() {
+        return this.stack;
+    }
 }
 
-const stack1 = new Stack();
+// const stack = new Stack();
 
-console.log(stack1.push(12));
-console.log(stack1.size());
-console.log(stack1.push(20));
-console.log(stack1.peek());
-console.log(stack1.printStack());
+// console.log(stack.push(12));
+// console.log(stack.size());
+// console.log(stack.push(20));
+// console.log(stack.peek());
+// console.log(stack.printStack());
+
+/* ========================================================================================== */
+class StackUsingArr {
+    top = -1;
+    #stack;
+    constructor() {
+        this.#stack = [];
+    }
+
+    push(val) {
+        this.top++;
+        this.#stack[this.top] = val;
+    }
+
+    pop() {
+        if (this.top == -1) throw Error("Stack is empty");
+        this.top -= 1;
+        return this.#stack[this.top + 1];
+    }
+
+    getTop() {
+        if (this.top == -1) return -1;
+        return this.#stack[this.top];
+    }
+}
+
+const stack = new StackUsingArr();
+stack.push(10);
+stack.push(20);
+console.log(stack.getTop());
+console.log(stack.pop());
+console.log(stack.pop());
+console.log(stack.getTop());
