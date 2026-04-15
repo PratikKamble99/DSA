@@ -48,7 +48,7 @@ class Stack {
 // console.log(stack.printStack());
 
 /* ========================================================================================== */
-class StackUsingArr {
+export class StackUsingArr {
     top = -1;
     #stack;
     constructor() {
@@ -72,10 +72,10 @@ class StackUsingArr {
     }
 }
 
-const stack = new StackUsingArr();
-stack.push(10);
-stack.push(20);
-console.log(stack.getTop());
-console.log(stack.pop());
-console.log(stack.pop());
-console.log(stack.getTop());
+// const stack = new StackUsingArr();
+// stack.push(10);
+// stack.push(20);
+// console.log(stack.getTop());
+// console.log(stack.pop());
+// console.log(stack.pop());
+// console.log(stack.getTop());
