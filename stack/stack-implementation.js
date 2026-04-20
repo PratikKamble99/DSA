@@ -61,7 +61,7 @@ export class StackUsingArr {
     }
 
     pop() {
-        if (this.top == -1) throw Error("Stack is empty");
+        if (this.top == -1) return -1 /* throw Error("Stack is empty") */;
         this.top -= 1;
         return this.#stack[this.top + 1];
     }
