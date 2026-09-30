@@ -59,43 +59,41 @@ var threeSumBetter = function (nums) {
     return Array.from(Array.from(set).map((ele) => ele.split(",").map(Number)));
 };
 
-var threeSumBest = function (nums) {
+function threeSumBest(nums) {
+    const sorted = [...nums].sort((a, b) => a - b);
     const result = [];
 
-    // SORT ARRAY
-    nums.sort((a, b) => a - b);
+    for (let i = 0; i < sorted.length - 2; i++) {
+        // after sorting check first number
+        if (sorted[i] > 0) break;
 
-    for (let i = 0; i < nums.length; i++) {
-        if (i > 0 && nums[i] == nums[i - 1]) continue;
-        let j = i + 1;
-        let k = nums.length - 1;
+        // skip duplicate numbers
+        if (i > 0 && sorted[i] === sorted[i - 1]) continue;
 
-        while (j < k) {
-            // CALCULATE  SUM
-            const sum = nums[j] + nums[k] + nums[i];
+        let left = i + 1;
+        let right = sorted.length - 1;
 
-            // IF SUM IS GREATER THAN 0 THEN SUM NEED TO BE INCREASE so INCREASE J
-            if (sum < 0) {
-                j++;
-            } else if (sum > 0) {
-                // IF SUM IS LESS THAN 0 THEN SUM NEED TO BE DECREASE so REDUCE K
-                k--;
-            } else {
-                // IF SUM IS ZERO THEN ADD INTO RESULT AND J INCREASE BY 1 And REDUCE K BY 1
-                result.push([nums[i], nums[j], nums[k]]);
-                k--;
-                j++;
+        while (left < right) {
+            const sum = sorted[left] + sorted[right] + sorted[i];
 
-                // if prev and current j ele is same skip
-                while (j < k && nums[j] == nums[j - 1]) j++;
-                // if prev and current k ele is same skip
-                while (j < k && nums[k] == nums[k + 1]) k--;
-            }
+            if (sum === 0) {
+                result.push([sorted[i], sorted[left], sorted[right]]);
+
+                // if next left if same as current left skip next lrft numbers
+                while (left < right && sorted[left] === sorted[left + 1])
+                    left++;
+                // if prev right if same as current right skip next prev right numbers
+                while (left < right && sorted[right] === sorted[right - 1])
+                    right--;
+
+                left++;
+                right--;
+            } else if (sum < 0) left++;
+            else right--;
         }
     }
-    console.log(result);
     return result;
-};
+}
 
 const arr = [-1, 0, 1, 2, -1, -4];
 // threeSumBetter(arr);
