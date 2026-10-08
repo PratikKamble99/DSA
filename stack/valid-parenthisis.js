@@ -9,56 +9,56 @@
 // Input: "(]"             ----->>>>>        Output: false
 
 function validParenthisis(s) {
-  const stack = [];
+    const stack = [];
 
-  if (s.length == 1) return false;
+    if (s.length == 1) return false;
 
-  for (let i = 0; i < s.length; i++) {
-    const char = s[i];
+    for (let i = 0; i < s.length; i++) {
+        const char = s[i];
 
-    if (char == "[" || char == "(" || char == "{") {
-      stack.push(char);
-    } else {
-      stack.push(char);
-      const lastChar = stack[stack.length - 2];
-      if (
-        (char == ")" && lastChar == "(") ||
-        (char == "}" && lastChar == "{") ||
-        (char == "]" && lastChar == "[")
-      ) {
-        stack.pop();
-        stack.pop();
-      }
-    }
-  }
-
-  if (stack.length == 0) return true;
-  return false;
-}
-
-function validParenthisisOptimized(s) {
-  const stack = [];
-
-  for (let i = 0; i < s.length; i++) {
-    let c = s.charAt(i);
-    switch (c) {
-      case "(":
-        stack.push(")");
-        break;
-      case "[":
-        stack.push("]");
-        break;
-      case "{":
-        stack.push("}");
-        break;
-      default:
-        if (c !== stack.pop()) {
-          return false;
+        if (char == "[" || char == "(" || char == "{") {
+            stack.push(char);
+        } else {
+            stack.push(char);
+            const lastChar = stack[stack.length - 2];
+            if (
+                (char == ")" && lastChar == "(") ||
+                (char == "}" && lastChar == "{") ||
+                (char == "]" && lastChar == "[")
+            ) {
+                stack.pop();
+                stack.pop();
+            }
         }
     }
-  }
 
-  return stack.length === 0;
+    if (stack.length == 0) return true;
+    return false;
+}
+
+function validParenthisis(s) {
+    if (s.length % 2 !== 0) return false;
+
+    const stack = [];
+
+    for (let i = 0; i < s.length; i++) {
+        const char = s[i];
+
+        switch (char) {
+            case "(":
+                stack.push(")");
+                break;
+            case "[":
+                stack.push("]");
+                break;
+            case "{":
+                stack.push("}");
+                break;
+            default:
+                if (char !== stack.pop()) return false;
+        }
+    }
+    return stack.length == 0;
 }
 
 console.log(validParenthisis("([]{})"));
