@@ -1,4 +1,4 @@
-// Find all substrings that are palindromes.
+// Find all distinct substrings that are palindromes.
 
 var countSubstrings = function (s) {
   const result = [];

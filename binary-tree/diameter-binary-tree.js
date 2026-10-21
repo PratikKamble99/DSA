@@ -1,4 +1,4 @@
-// Diameter of binary tree = longest path between to node ( they can be any nodes )
+// Diameter of binary tree = number of edges on the longest path between two nodes ( they can be any nodes )
 let root = {
     value: 1,
     left: {

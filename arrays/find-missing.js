@@ -11,7 +11,7 @@ function findMissingBrute(nums) {
   // loop through 0 to n range numsay
   for (let i = 0; i <= n; i++) {
     let flag = 0;
-    // n-1 because one number is missing
+    // scan all n array items (indexes 0 to n-1)
     for (let j = 0; j < n; j++) {
       if (i == nums[j]) {
         flag = 1;

@@ -2,9 +2,10 @@ const nums = [11, 20, -12, -5, 1, 3, 4, 8];
 
 /* 
 Idea is
-First check if left part is sorted 
-then check if target is in that left array 
-if not then discard that left sorted array
+One half around mid is always sorted.
+If the left part is sorted, check if target is in that left range:
+yes -> search left, no -> discard the left half.
+Otherwise the right part is sorted, so do the same check on the right range.
 */
 function solution(nums, target) {
   let left = 0;

@@ -21,7 +21,7 @@ function mergeIntervals(intervals) {
         let start = intervals[i][0];
         let end = intervals[i][1];
 
-        // CHECK IF CURRENT END IS OVERLAPPING WITH PREV INTERVAL
+        // SKIP IF CURRENT INTERVAL IS ALREADY COVERED BY THE LAST MERGED INTERVAL
         if (result.length != 0 && result[result.length - 1][1] >= end) {
             continue;
         }
@@ -44,7 +44,7 @@ function mergeIntervalsOpt(intervals) {
 
     for (let i = 0; i < intervals.length; i++) {
         // CHECK IF RESULT ARRAY IS EMPTY
-        // OR LAST ELEMENT IN RESULT IS LESS THAT CURRENT ELEMENT FIRST INDEX
+        // OR LAST INTERVAL'S END IN RESULT IS LESS THAN CURRENT INTERVAL'S START
         if (
             result.length == 0 ||
             intervals[i][0] > result[result.length - 1][1]

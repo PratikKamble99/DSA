@@ -13,9 +13,9 @@ Progress: **39 / 150**
 | --- | --- | --- |
 | [Contains Duplicate](https://leetcode.com/problems/contains-duplicate/) | Easy | — |
 | [Valid Anagram](https://leetcode.com/problems/valid-anagram/) | Easy | — |
-| [Two Sum](https://leetcode.com/problems/two-sum/) | Easy | [code](arrays/2-sum.js) |
+| [Two Sum](https://leetcode.com/problems/two-sum/) | Easy | [code](arrays/2-sum.js) · [notes](arrays/2-sum.md) |
 | [Group Anagrams](https://leetcode.com/problems/group-anagrams/) | Medium | — |
-| [Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/) | Medium | [code](arrays/top-k-frequent.js) |
+| [Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/) | Medium | [code](arrays/top-k-frequent.js) · [notes](arrays/top-k-frequent.md) |
 | [Encode and Decode Strings](https://leetcode.com/problems/encode-and-decode-strings/) (Premium) | Medium | — |
 | [Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/) | Medium | — |
 | [Valid Sudoku](https://leetcode.com/problems/valid-sudoku/) | Medium | — |
@@ -25,44 +25,44 @@ Progress: **39 / 150**
 
 | Problem | Level | Solution |
 | --- | --- | --- |
-| [Valid Palindrome](https://leetcode.com/problems/valid-palindrome/) | Easy | [code](strings/palindrome-string.js) |
+| [Valid Palindrome](https://leetcode.com/problems/valid-palindrome/) | Easy | [code](strings/palindrome-string.js) · [notes](strings/palindrome-string.md) |
 | [Two Sum II - Input Array Is Sorted](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/) | Medium | — |
-| [3Sum](https://leetcode.com/problems/3sum/) | Medium | [code](arrays/3-sum.js) |
-| [Container With Most Water](https://leetcode.com/problems/container-with-most-water/) | Medium | [code](arrays/container-with-most-water.js) |
-| [Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water/) | Hard | [code](arrays/trap-water-in-bars.js) |
+| [3Sum](https://leetcode.com/problems/3sum/) | Medium | [code](arrays/3-sum.js) · [notes](arrays/3-sum.md) |
+| [Container With Most Water](https://leetcode.com/problems/container-with-most-water/) | Medium | [code](arrays/container-with-most-water.js) · [notes](arrays/container-with-most-water.md) |
+| [Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water/) | Hard | [code](arrays/trap-water-in-bars.js) · [notes](arrays/trap-water-in-bars.md) |
 
 ## Sliding Window
 
 | Problem | Level | Solution |
 | --- | --- | --- |
-| [Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/) | Easy | [code](arrays/Best-Time-to-Buy-and-Sell-Stock.js) |
-| [Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/) | Medium | [code](strings/length-of-longest-substring-without-repeatation.js) |
-| [Longest Repeating Character Replacement](https://leetcode.com/problems/longest-repeating-character-replacement/) | Medium | [code](strings/Character-Replacement.js) |
+| [Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/) | Easy | [code](arrays/Best-Time-to-Buy-and-Sell-Stock.js) · [notes](arrays/Best-Time-to-Buy-and-Sell-Stock.md) |
+| [Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/) | Medium | [code](strings/length-of-longest-substring-without-repeatation.js) · [notes](strings/length-of-longest-substring-without-repeatation.md) |
+| [Longest Repeating Character Replacement](https://leetcode.com/problems/longest-repeating-character-replacement/) | Medium | [code](strings/Character-Replacement.js) · [notes](strings/Character-Replacement.md) |
 | [Permutation in String](https://leetcode.com/problems/permutation-in-string/) | Medium | — |
-| [Minimum Window Substring](https://leetcode.com/problems/minimum-window-substring/) | Hard | [code](strings/Minimum-Window-Substring.js) |
-| [Sliding Window Maximum](https://leetcode.com/problems/sliding-window-maximum/) | Hard | [code](queue/sliding-window.js) |
+| [Minimum Window Substring](https://leetcode.com/problems/minimum-window-substring/) | Hard | [code](strings/Minimum-Window-Substring.js) · [notes](strings/Minimum-Window-Substring.md) |
+| [Sliding Window Maximum](https://leetcode.com/problems/sliding-window-maximum/) | Hard | [code](queue/sliding-window.js) · [notes](queue/sliding-window.md) |
 
 ## Stack
 
 | Problem | Level | Solution |
 | --- | --- | --- |
-| [Valid Parentheses](https://leetcode.com/problems/valid-parentheses/) | Easy | [code](stack/valid-parenthisis.js) |
-| [Min Stack](https://leetcode.com/problems/min-stack/) | Medium | [code](stack/min-stack.js) |
-| [Evaluate Reverse Polish Notation](https://leetcode.com/problems/evaluate-reverse-polish-notation/) | Medium | [code](arrays/Evaluate-Reverse-Polish-Notation.js) |
+| [Valid Parentheses](https://leetcode.com/problems/valid-parentheses/) | Easy | [code](stack/valid-parenthisis.js) · [notes](stack/valid-parenthisis.md) |
+| [Min Stack](https://leetcode.com/problems/min-stack/) | Medium | [code](stack/min-stack.js) · [notes](stack/min-stack.md) |
+| [Evaluate Reverse Polish Notation](https://leetcode.com/problems/evaluate-reverse-polish-notation/) | Medium | [code](arrays/Evaluate-Reverse-Polish-Notation.js) · [notes](arrays/Evaluate-Reverse-Polish-Notation.md) |
 | [Generate Parentheses](https://leetcode.com/problems/generate-parentheses/) | Medium | — |
-| [Daily Temperatures](https://leetcode.com/problems/daily-temperatures/) | Medium | [code](arrays/daily-temperatures.js) |
+| [Daily Temperatures](https://leetcode.com/problems/daily-temperatures/) | Medium | [code](arrays/daily-temperatures.js) · [notes](arrays/daily-temperatures.md) |
 | [Car Fleet](https://leetcode.com/problems/car-fleet/) | Medium | — |
-| [Largest Rectangle in Histogram](https://leetcode.com/problems/largest-rectangle-in-histogram/) | Hard | [code](arrays/Largest-Rectangle-in-Histogram.js) |
+| [Largest Rectangle in Histogram](https://leetcode.com/problems/largest-rectangle-in-histogram/) | Hard | [code](arrays/Largest-Rectangle-in-Histogram.js) · [notes](arrays/Largest-Rectangle-in-Histogram.md) |
 
 ## Binary Search
 
 | Problem | Level | Solution |
 | --- | --- | --- |
-| [Binary Search](https://leetcode.com/problems/binary-search/) | Easy | [code](search-algorithms/binary-search/binary-search.js) |
-| [Search a 2D Matrix](https://leetcode.com/problems/search-a-2d-matrix/) | Medium | [code](problem-solving-easy/searching-target-2d-matrix.js) |
+| [Binary Search](https://leetcode.com/problems/binary-search/) | Easy | [code](search-algorithms/binary-search/binary-search.js) · [notes](search-algorithms/binary-search/binary-search.md) |
+| [Search a 2D Matrix](https://leetcode.com/problems/search-a-2d-matrix/) | Medium | [code](problem-solving-easy/searching-target-2d-matrix.js) · [notes](problem-solving-easy/searching-target-2d-matrix.md) |
 | [Koko Eating Bananas](https://leetcode.com/problems/koko-eating-bananas/) | Medium | — |
 | [Find Minimum in Rotated Sorted Array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/) | Medium | — |
-| [Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/) | Medium | [code](search-algorithms/binary-search/search-in-rotated-array.js) |
+| [Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/) | Medium | [code](search-algorithms/binary-search/search-in-rotated-array.js) · [notes](search-algorithms/binary-search/search-in-rotated-array.md) |
 | [Time Based Key-Value Store](https://leetcode.com/problems/time-based-key-value-store/) | Medium | — |
 | [Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays/) | Hard | — |
 
@@ -70,7 +70,7 @@ Progress: **39 / 150**
 
 | Problem | Level | Solution |
 | --- | --- | --- |
-| [Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/) | Easy | [code](linked-list/singly-linked-list/reverse-SL.js) |
+| [Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/) | Easy | [code](linked-list/singly-linked-list/reverse-SL.js) · [notes](linked-list/singly-linked-list/reverse-SL.md) |
 | [Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/) | Easy | [code](linked-list/singly-linked-list/Merge-Two-Sorted-Lists.js) · [notes](linked-list/singly-linked-list/Merge-Two-Sorted-Lists.md) |
 | [Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/) | Easy | — |
 | [Reorder List](https://leetcode.com/problems/reorder-list/) | Medium | — |
@@ -78,7 +78,7 @@ Progress: **39 / 150**
 | [Copy List with Random Pointer](https://leetcode.com/problems/copy-list-with-random-pointer/) | Medium | — |
 | [Add Two Numbers](https://leetcode.com/problems/add-two-numbers/) | Medium | [code](linked-list/singly-linked-list/add-two-numbers.js) · [notes](linked-list/singly-linked-list/add-two-numbers.md) |
 | [Find the Duplicate Number](https://leetcode.com/problems/find-the-duplicate-number/) | Medium | — |
-| [LRU Cache](https://leetcode.com/problems/lru-cache/) | Medium | [code](linked-list/LRU-cache.js) |
+| [LRU Cache](https://leetcode.com/problems/lru-cache/) | Medium | [code](linked-list/LRU-cache.js) · [notes](linked-list/LRU-cache.md) |
 | [Merge k Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/) | Hard | — |
 | [Reverse Nodes in k-Group](https://leetcode.com/problems/reverse-nodes-in-k-group/) | Hard | — |
 
@@ -87,13 +87,13 @@ Progress: **39 / 150**
 | Problem | Level | Solution |
 | --- | --- | --- |
 | [Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree/) | Easy | — |
-| [Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/) | Easy | [code](binary-tree/max-depth-tree.js) |
-| [Diameter of Binary Tree](https://leetcode.com/problems/diameter-of-binary-tree/) | Easy | [code](binary-tree/diameter-binary-tree.js) |
+| [Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/) | Easy | [code](binary-tree/max-depth-tree.js) · [notes](binary-tree/max-depth-tree.md) |
+| [Diameter of Binary Tree](https://leetcode.com/problems/diameter-of-binary-tree/) | Easy | [code](binary-tree/diameter-binary-tree.js) · [notes](binary-tree/diameter-binary-tree.md) |
 | [Balanced Binary Tree](https://leetcode.com/problems/balanced-binary-tree/) | Easy | — |
 | [Same Tree](https://leetcode.com/problems/same-tree/) | Easy | — |
 | [Subtree of Another Tree](https://leetcode.com/problems/subtree-of-another-tree/) | Easy | — |
 | [Lowest Common Ancestor of a BST](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/) | Medium | — |
-| [Binary Tree Level Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal/) | Medium | [code](binary-tree/level-order-traversal.js) |
+| [Binary Tree Level Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal/) | Medium | [code](binary-tree/level-order-traversal.js) · [notes](binary-tree/level-order-traversal.md) |
 | [Binary Tree Right Side View](https://leetcode.com/problems/binary-tree-right-side-view/) | Medium | — |
 | [Count Good Nodes in Binary Tree](https://leetcode.com/problems/count-good-nodes-in-binary-tree/) | Medium | — |
 | [Validate Binary Search Tree](https://leetcode.com/problems/validate-binary-search-tree/) | Medium | — |
@@ -126,12 +126,12 @@ Progress: **39 / 150**
 
 | Problem | Level | Solution |
 | --- | --- | --- |
-| [Subsets](https://leetcode.com/problems/subsets/) | Medium | [code](recursion/subset-array.js) |
+| [Subsets](https://leetcode.com/problems/subsets/) | Medium | [code](recursion/subset-array.js) · [notes](recursion/subset-array.md) |
 | [Combination Sum](https://leetcode.com/problems/combination-sum/) | Medium | — |
 | [Combination Sum II](https://leetcode.com/problems/combination-sum-ii/) | Medium | — |
 | [Permutations](https://leetcode.com/problems/permutations/) | Medium | — |
 | [Subsets II](https://leetcode.com/problems/subsets-ii/) | Medium | — |
-| [Word Search](https://leetcode.com/problems/word-search/) | Medium | [code](dfs+backtracing/word-search.js) |
+| [Word Search](https://leetcode.com/problems/word-search/) | Medium | [code](dfs+backtracing/word-search.js) · [notes](dfs+backtracing/word-search.md) |
 | [Palindrome Partitioning](https://leetcode.com/problems/palindrome-partitioning/) | Medium | — |
 | [Letter Combinations of a Phone Number](https://leetcode.com/problems/letter-combinations-of-a-phone-number/) | Medium | — |
 | [N-Queens](https://leetcode.com/problems/n-queens/) | Hard | — |
@@ -174,9 +174,9 @@ Progress: **39 / 150**
 | [House Robber](https://leetcode.com/problems/house-robber/) | Medium | — |
 | [House Robber II](https://leetcode.com/problems/house-robber-ii/) | Medium | — |
 | [Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/) | Medium | — |
-| [Palindromic Substrings](https://leetcode.com/problems/palindromic-substrings/) | Medium | [code](strings/substring-that-pallindrome.js) |
+| [Palindromic Substrings](https://leetcode.com/problems/palindromic-substrings/) | Medium | [code](strings/substring-that-pallindrome.js) · [notes](strings/substring-that-pallindrome.md) |
 | [Decode Ways](https://leetcode.com/problems/decode-ways/) | Medium | — |
-| [Coin Change](https://leetcode.com/problems/coin-change/) | Medium | [code](dynamic-programming/coin-change.js) |
+| [Coin Change](https://leetcode.com/problems/coin-change/) | Medium | [code](dynamic-programming/coin-change.js) · [notes](dynamic-programming/coin-change.md) |
 | [Maximum Product Subarray](https://leetcode.com/problems/maximum-product-subarray/) | Medium | — |
 | [Word Break](https://leetcode.com/problems/word-break/) | Medium | — |
 | [Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence/) | Medium | — |
@@ -202,7 +202,7 @@ Progress: **39 / 150**
 
 | Problem | Level | Solution |
 | --- | --- | --- |
-| [Maximum Subarray](https://leetcode.com/problems/maximum-subarray/) | Medium | [code](arrays/max-sum-sub-array.js) |
+| [Maximum Subarray](https://leetcode.com/problems/maximum-subarray/) | Medium | [code](arrays/max-sum-sub-array.js) · [notes](arrays/max-sum-sub-array.md) |
 | [Jump Game](https://leetcode.com/problems/jump-game/) | Medium | — |
 | [Jump Game II](https://leetcode.com/problems/jump-game-ii/) | Medium | — |
 | [Gas Station](https://leetcode.com/problems/gas-station/) | Medium | — |
@@ -216,7 +216,7 @@ Progress: **39 / 150**
 | Problem | Level | Solution |
 | --- | --- | --- |
 | [Insert Interval](https://leetcode.com/problems/insert-interval/) | Medium | — |
-| [Merge Intervals](https://leetcode.com/problems/merge-intervals/) | Medium | [code](arrays/merge-overlapping-sub-intervals.js) |
+| [Merge Intervals](https://leetcode.com/problems/merge-intervals/) | Medium | [code](arrays/merge-overlapping-sub-intervals.js) · [notes](arrays/merge-overlapping-sub-intervals.md) |
 | [Non-overlapping Intervals](https://leetcode.com/problems/non-overlapping-intervals/) | Medium | — |
 | [Meeting Rooms](https://leetcode.com/problems/meeting-rooms/) (Premium) | Easy | — |
 | [Meeting Rooms II](https://leetcode.com/problems/meeting-rooms-ii/) (Premium) | Medium | — |
@@ -226,9 +226,9 @@ Progress: **39 / 150**
 
 | Problem | Level | Solution |
 | --- | --- | --- |
-| [Rotate Image](https://leetcode.com/problems/rotate-image/) | Medium | [code](arrays/matrix/rotate-matrix-by-90-degree.js) |
-| [Spiral Matrix](https://leetcode.com/problems/spiral-matrix/) | Medium | [code](arrays/matrix/spiral_matrix.js) |
-| [Set Matrix Zeroes](https://leetcode.com/problems/set-matrix-zeroes/) | Medium | [code](arrays/matrix/set-matrix-to-zeros.js) |
+| [Rotate Image](https://leetcode.com/problems/rotate-image/) | Medium | [code](arrays/matrix/rotate-matrix-by-90-degree.js) · [notes](arrays/matrix/rotate-matrix-by-90-degree.md) |
+| [Spiral Matrix](https://leetcode.com/problems/spiral-matrix/) | Medium | [code](arrays/matrix/spiral_matrix.js) · [notes](arrays/matrix/spiral_matrix.md) |
+| [Set Matrix Zeroes](https://leetcode.com/problems/set-matrix-zeroes/) | Medium | [code](arrays/matrix/set-matrix-to-zeros.js) · [notes](arrays/matrix/set-matrix-to-zeros.md) |
 | [Happy Number](https://leetcode.com/problems/happy-number/) | Easy | — |
 | [Plus One](https://leetcode.com/problems/plus-one/) | Easy | [code](arrays/Plus-One.js) · [notes](arrays/Plus-One.md) |
 | [Pow(x, n)](https://leetcode.com/problems/powx-n/) | Medium | — |
@@ -239,10 +239,10 @@ Progress: **39 / 150**
 
 | Problem | Level | Solution |
 | --- | --- | --- |
-| [Single Number](https://leetcode.com/problems/single-number/) | Easy | [code](arrays/find-number-appears-once.js) |
+| [Single Number](https://leetcode.com/problems/single-number/) | Easy | [code](arrays/find-number-appears-once.js) · [notes](arrays/find-number-appears-once.md) |
 | [Number of 1 Bits](https://leetcode.com/problems/number-of-1-bits/) | Easy | — |
 | [Counting Bits](https://leetcode.com/problems/counting-bits/) | Easy | — |
 | [Reverse Bits](https://leetcode.com/problems/reverse-bits/) | Easy | — |
-| [Missing Number](https://leetcode.com/problems/missing-number/) | Easy | [code](arrays/find-missing.js) |
+| [Missing Number](https://leetcode.com/problems/missing-number/) | Easy | [code](arrays/find-missing.js) · [notes](arrays/find-missing.md) |
 | [Sum of Two Integers](https://leetcode.com/problems/sum-of-two-integers/) | Medium | — |
 | [Reverse Integer](https://leetcode.com/problems/reverse-integer/) | Medium | — |

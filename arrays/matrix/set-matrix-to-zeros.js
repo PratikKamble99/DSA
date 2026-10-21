@@ -12,7 +12,7 @@
 
 */
 
-// O(n^3) time as O(n*m) * O(n+m) + O(n*m)
+// O(n*m*(n+m)) time as O(n*m) * O(n+m) + O(n*m), O(1) space
 var setZeroesBrute = function (matrix) {
   const n = matrix.length; // ROW
   const m = matrix[0].length; // column
@@ -48,7 +48,7 @@ function markColumn(matrix, n, j) {
   }
 }
 
-// O(n^2) time and O(n + m) space
+// O(n*m) time and O(n + m) space
 var setZeroesBetter = function (matrix) {
   const n = matrix.length; // ROW
   const m = matrix[0].length; // column
@@ -75,7 +75,7 @@ var setZeroesBetter = function (matrix) {
   console.log(matrix);
 };
 
-// O(n^2) time and O(k) space where k is number of zeros in the matrix
+// O(k*n*m) time (full grid walk per zero) and O(k) space where k is number of zeros in the matrix
 var setZeroesWithHash = function (matrix) {
   const hashMap = new Map();
   const n = matrix[0].length;
@@ -108,7 +108,7 @@ var setZeroesWithHash = function (matrix) {
   console.log(matrix);
 };
 
-// O(n^2) time and O(1) space
+// O(n*m) time and O(1) space
 var setZeroesOpt = function (matrix) {
   const n = matrix.length; // ROW
   const m = matrix[0].length; // column

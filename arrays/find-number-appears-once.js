@@ -30,12 +30,12 @@ function numberAppearOnce(nums){
 
 console.log(numberAppearOnce(nums))
 
-// using map
+// using xor
 function numberAppearOnceOpt(nums){
     let xor = 0
 
     for (let i = 0; i < nums.length; i++) {
-        xor^= nums[i] // xor of two numbers = 2 ^ 2 = 0 ie --> 2 in binary 10 so xor of two binary is if 1^1 = 0, 1^0 = 0, 0^1 = 1, 0^0 = 0
+        xor^= nums[i] // xor of two numbers = 2 ^ 2 = 0 ie --> 2 in binary 10 so xor of two binary is if 1^1 = 0, 1^0 = 1, 0^1 = 1, 0^0 = 0
     }
     return xor
 }

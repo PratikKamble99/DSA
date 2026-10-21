@@ -2,7 +2,7 @@ import { Queue2 } from "../queue/queue-implementation.js";
 
 /* Root is type of 
     Node {
-        val: number,
+        value: number,
         left: Node | null,
         right: Node | null
     } 

@@ -1,7 +1,7 @@
-// Least recent user cache
+// Least Recently Used (LRU) cache
 
 // Cache have limited capacity
-// if capacity full then remove least accessed key/node
+// if capacity full then remove least recently used key/node
 
 // For this use doubly linkedlist and hash map
 

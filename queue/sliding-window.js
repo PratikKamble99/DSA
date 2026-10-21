@@ -23,6 +23,7 @@ function slidingindow(array, k) {
   return newArray;
 }
 
-// DOUBLY ENDED QUEUE:- queue in which we can inser and remove element from both side
+// DOUBLY ENDED QUEUE:- queue in which we can insert and remove element from both side
+// (not used above: the solution above is brute force O(n*k); a monotonic deque gives O(n))
 
 console.log(slidingindow([1, 3, -1, -3, 5, 3, 6, 7], 3));
