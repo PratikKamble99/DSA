@@ -5,7 +5,7 @@ Source: [LeetCode problem list](https://leetcode.com/problem-list/plakya4j/). (P
 Click a problem name to open it on LeetCode. Click **code** to open my solution in this repo.
 To add a solution, swap `—` for `[code](path/to/file.js)`.
 
-Progress: **39 / 150**
+Progress: **40 / 150**
 
 ## Arrays & Hashing
 
@@ -64,7 +64,7 @@ Progress: **39 / 150**
 | [Find Minimum in Rotated Sorted Array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/) | Medium | — |
 | [Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/) | Medium | [code](search-algorithms/binary-search/search-in-rotated-array.js) · [notes](search-algorithms/binary-search/search-in-rotated-array.md) |
 | [Time Based Key-Value Store](https://leetcode.com/problems/time-based-key-value-store/) | Medium | — |
-| [Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays/) | Hard | — |
+| [Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays/) | Hard | [code](arrays/median-of-two-sorted-arrays.js) · [notes](arrays/median-of-two-sorted-arrays.md) |
 
 ## Linked List
 
