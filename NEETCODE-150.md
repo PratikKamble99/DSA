@@ -5,7 +5,7 @@ Source: [LeetCode problem list](https://leetcode.com/problem-list/plakya4j/). (P
 Click a problem name to open it on LeetCode. Click **code** to open my solution in this repo.
 To add a solution, swap `—` for `[code](path/to/file.js)`.
 
-Progress: **40 / 150**
+Progress: **41 / 150**
 
 ## Arrays & Hashing
 
@@ -173,8 +173,8 @@ Progress: **40 / 150**
 | [Min Cost Climbing Stairs](https://leetcode.com/problems/min-cost-climbing-stairs/) | Easy | — |
 | [House Robber](https://leetcode.com/problems/house-robber/) | Medium | — |
 | [House Robber II](https://leetcode.com/problems/house-robber-ii/) | Medium | — |
-| [Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/) | Medium | — |
-| [Palindromic Substrings](https://leetcode.com/problems/palindromic-substrings/) | Medium | [code](strings/substring-that-pallindrome.js) · [notes](strings/substring-that-pallindrome.md) |
+| [Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/) | Medium | [code](strings/longest-palindromic-substring.js) · [notes](strings/longest-palindromic-substring.md) |
+| [Palindromic Substrings](https://leetcode.com/problems/palindromic-substrings/) | Medium | [code](stack/palindromic-substrings.js) · [notes](stack/palindromic-substrings.md) |
 | [Decode Ways](https://leetcode.com/problems/decode-ways/) | Medium | — |
 | [Coin Change](https://leetcode.com/problems/coin-change/) | Medium | [code](dynamic-programming/coin-change.js) · [notes](dynamic-programming/coin-change.md) |
 | [Maximum Product Subarray](https://leetcode.com/problems/maximum-product-subarray/) | Medium | — |
