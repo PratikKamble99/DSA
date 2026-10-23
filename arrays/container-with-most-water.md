@@ -18,9 +18,7 @@ Below, **n** = the number of lines.
 
 ---
 
-## Approach 1: Try every pair (brute force)
-
-The file only mentions this approach in a comment; it isn't written as code.
+## Approach 1: Try every pair (`maxAreaBrute`)
 
 ### Idea
 Check every pair `(i, j)` with two nested loops, calculate its area, and keep the largest.

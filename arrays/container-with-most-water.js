@@ -1,4 +1,20 @@
 // Approach 1 - using two for loops - O(n^2)
+var maxAreaBrute = function (heights) {
+    let maxWater = 0;
+
+    for (let i = 0; i < heights.length; i++) {
+        let waterInCurrent = 0;
+        for (let j = i + 1; j < heights.length; j++) {
+            const min = Math.min(heights[i], heights[j]);
+            waterInCurrent = min * (j - i);
+            maxWater = Math.max(waterInCurrent, maxWater);
+        }
+        waterInCurrent = 0;
+    }
+    return maxWater;
+};
+
+console.log(maxAreaBrute([1, 8, 6, 2, 5, 4, 8, 3, 7])); // 49
 
 // Approach 2 - using two pointers - O(n)
 function maxArea(height) {
