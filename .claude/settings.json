@@ -1,0 +1,8 @@
+{
+  "permissions": {
+    "allow": [
+      "Edit(/.claude/skills/interview-qa/**)",
+      "Bash(node \"d:/Projects/DSA/strings/Character-Replacement.js\")"
+    ]
+  }
+}

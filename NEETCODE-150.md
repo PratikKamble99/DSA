@@ -5,7 +5,7 @@ Source: [LeetCode problem list](https://leetcode.com/problem-list/plakya4j/). (P
 Click a problem name to open it on LeetCode. Click **code** to open my solution in this repo.
 To add a solution, swap `—` for `[code](path/to/file.js)`.
 
-Progress: **41 / 150**
+Progress: **43 / 150**
 
 ## Arrays & Hashing
 
@@ -87,15 +87,15 @@ Progress: **41 / 150**
 | Problem | Level | Solution |
 | --- | --- | --- |
 | [Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree/) | Easy | — |
-| [Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/) | Easy | [code](binary-tree/max-depth-tree.js) · [notes](binary-tree/max-depth-tree.md) |
-| [Diameter of Binary Tree](https://leetcode.com/problems/diameter-of-binary-tree/) | Easy | [code](binary-tree/diameter-binary-tree.js) · [notes](binary-tree/diameter-binary-tree.md) |
+| [Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/) | Easy | [code](tree/max-depth-tree.js) · [notes](tree/max-depth-tree.md) |
+| [Diameter of Binary Tree](https://leetcode.com/problems/diameter-of-binary-tree/) | Easy | [code](tree/diameter-binary-tree.js) · [notes](tree/diameter-binary-tree.md) |
 | [Balanced Binary Tree](https://leetcode.com/problems/balanced-binary-tree/) | Easy | — |
 | [Same Tree](https://leetcode.com/problems/same-tree/) | Easy | — |
 | [Subtree of Another Tree](https://leetcode.com/problems/subtree-of-another-tree/) | Easy | — |
 | [Lowest Common Ancestor of a BST](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/) | Medium | — |
-| [Binary Tree Level Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal/) | Medium | [code](binary-tree/level-order-traversal.js) · [notes](binary-tree/level-order-traversal.md) |
+| [Binary Tree Level Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal/) | Medium | [code](tree/level-order-traversal.js) · [notes](tree/level-order-traversal.md) |
 | [Binary Tree Right Side View](https://leetcode.com/problems/binary-tree-right-side-view/) | Medium | — |
-| [Count Good Nodes in Binary Tree](https://leetcode.com/problems/count-good-nodes-in-binary-tree/) | Medium | — |
+| [Count Good Nodes in Binary Tree](https://leetcode.com/problems/count-good-nodes-in-binary-tree/) | Medium | [code](tree/count-good-nodes-in-binary-tree.js) · [notes](tree/count-good-nodes-in-binary-tree.md) |
 | [Validate Binary Search Tree](https://leetcode.com/problems/validate-binary-search-tree/) | Medium | — |
 | [Kth Smallest Element in a BST](https://leetcode.com/problems/kth-smallest-element-in-a-bst/) | Medium | — |
 | [Construct Binary Tree from Preorder and Inorder Traversal](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/) | Medium | — |
@@ -189,7 +189,7 @@ Progress: **41 / 150**
 | [Unique Paths](https://leetcode.com/problems/unique-paths/) | Medium | — |
 | [Longest Common Subsequence](https://leetcode.com/problems/longest-common-subsequence/) | Medium | — |
 | [Best Time to Buy and Sell Stock with Cooldown](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-cooldown/) | Medium | — |
-| [Coin Change II](https://leetcode.com/problems/coin-change-ii/) | Medium | — |
+| [Coin Change II](https://leetcode.com/problems/coin-change-ii/) | Medium | [code](dynamic-programming/coin-change-2.js) · [notes](dynamic-programming/coin-change-2.md) |
 | [Target Sum](https://leetcode.com/problems/target-sum/) | Medium | — |
 | [Interleaving String](https://leetcode.com/problems/interleaving-string/) | Medium | — |
 | [Longest Increasing Path in a Matrix](https://leetcode.com/problems/longest-increasing-path-in-a-matrix/) | Hard | — |

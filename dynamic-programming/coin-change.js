@@ -22,10 +22,14 @@ var coinChange = function (coins, amount) {
     dp_array[0] = 0;
 
     for (let amt = 1; amt <= amount; amt++) {
+        // loop on all coins
         for (let j = 0; j < coins.length; j++) {
             const coin = coins[j];
+            // Check if coin in eligible
             if (coin <= amt) {
+                // get how much other coins need to made amount
                 let need = dp_array[amt - coin] + 1;
+                // set least needed coins
                 dp_array[amt] = Math.min(dp_array[amt], need);
             }
         }
